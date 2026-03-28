@@ -1,0 +1,73 @@
+.exploring {
+    background-image: url(/images/exploring.webp);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+    & h2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    & .pictures-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        margin-top: 23px;
+
+        & .bi-caret-left {
+            color: black;
+            width: 30px;
+            height: 30px;
+        }
+
+        & .bi-caret-right {
+            color: black;
+            width: 30px;
+            height: 30px;
+        }
+
+        & .lt-img {
+            display: none;
+        }
+
+        & .phone-img {
+            width: 250px;
+            height: 150px;
+        }
+    }
+
+    & .circles {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        gap: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    .exploring {
+
+        & h2 {
+            font-family: 50px;
+            margin-top: 20px;
+        }
+
+        & .pictures-list {
+            & .lt-img {
+                display: flex;
+                justify-content: space-between;
+                width: 200px;
+                height: 150px;
+            }
+
+            & .phone-img {
+                display: none;
+            }
+        }    
+    }
+}

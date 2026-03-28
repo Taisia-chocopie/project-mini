@@ -1,0 +1,75 @@
+.video-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #010A20;
+    background-image: url(/images/bg-matilla.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 15px;
+    padding-bottom: 39px;
+    padding-top: 83px;
+
+    & h2 {
+        color: white;
+        font-size: 40px;
+    }
+
+    & .videoo {
+        
+        & .in-country {
+            color: white;
+            font-size: 22px;
+        }
+
+        & .lorem-country {
+            color: white;
+            opacity: 0.7;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .video-section {
+
+        & h2 {
+            font-size: 42px;
+        }
+
+        & .main-iframe {
+            min-width: 700px;
+            height: 394px;
+        }
+
+        & .videos {
+            display: flex;
+        }
+
+        & .videoo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            & iframe {
+                width: 200px;
+                height: 150px;
+            }
+
+            & .in-country {
+                font-size: 18px;
+            }
+
+            & .lorem-country {
+                font-size: 18px;
+            }
+
+            & .text-video {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.learn-more-abt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 171px;
+    padding-bottom: 116px;
+    background-image: url(/images/lines-phone.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & h2 {
+        font-size: 40px;
+        color: #000000;
+    }
+
+    & p {
+        font-size: 16px;
+        color: #6F7787;
+    }
+
+    & button {
+        background-color: #DD2242;
+        border: none;
+        border-radius: 122px;
+        width: 314px;
+        height: 73px;
+        color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    .learn-more-abt {
+        background-image: url(/images/line-laptop.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        & p {
+            margin-top: 32px;
+        }
+
+        & button {
+            margin-top: 36px;
+        }
+    }
+}

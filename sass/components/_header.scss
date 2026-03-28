@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & .logos-header {
+        color: white;
+        display: flex;
+        gap: 29px;
+
+        & .bi-search {
+            width: 24px;
+            height: 24px;
+        }
+
+        & .bi-list {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+.links-header {
+    display: none;
+}
+
+.links-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links-header ul li a {
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+    .links-header {
+        display: block;
+    }
+    
+    .links-header ul {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 61px;
+    }
+
+    .links-header a {
+        color: white;
+    }
+
+    .links-header a:hover {
+        text-shadow: 0 6px 20px rgba(0, 0, 0, 0.44);
+        color: rgb(217, 217, 217);
+    }
+}

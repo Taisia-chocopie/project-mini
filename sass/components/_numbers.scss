@@ -1,0 +1,49 @@
+.numbers-section {
+    background-color: #020C21;
+    opacity: 0.9;
+    margin-top: 700px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 69px;
+
+    & h2 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    & .lorem-nearh2-nmbr {
+        color: #E0E0E0;
+        font-size: 16px;
+        margin-top: 57px;
+    }
+
+    & .number-nmbrs {
+        color: #DD2242;
+        font-size: 40px;
+    }
+
+    & .descrpt-lorem {
+        font-size: 16px;
+        color: #E0E0E0;
+    }
+}
+
+@media (min-width: 768px) {
+    .numbers-section {
+        & h2 {
+            font-size: 60px;
+        }
+
+        & .lorem-nearh2-nmbr {
+            font-size: 18px;
+        }
+
+        & .numbs {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            gap: 10px;
+        }
+    }
+}

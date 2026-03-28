@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="bg-hero-header">
+        <header>
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="186" height="69" fill="none"><path fill="#fff" d="M36.769 15.314V7.658c0-.845-.686-1.53-1.532-1.53h-1.532V1.533c0-.846-.686-1.531-1.532-1.531-2.17 0-5.49-.167-9.39 2.168-2.424-.721-4.138-.637-5.93-.637-.846 0-1.532.685-1.532 1.53v3.063h-1.532c-.846 0-1.532.686-1.532 1.531v7.656c0 6.236 4.687 11.398 10.724 12.154v20a1.532 1.532 0 0 0 3.064 0V42.11h2.298c4.646 0 8.426-3.778 8.426-8.422v-2.297c0-.845-.686-1.53-1.532-1.53h-3.83a8.4 8.4 0 0 0-5.362 1.93v-4.324c6.028-.746 10.724-5.882 10.724-12.153m-3.064 0a9.17 9.17 0 0 1-3.112 6.874q.047-.368.048-.75c0-3.877-1.45-7.421-3.837-10.122a12.24 12.24 0 0 1 6.9-2.126zM30.64 3.064v3.372a15 15 0 0 0-.843.197 15.3 15.3 0 0 0-3.365-2.825 12.2 12.2 0 0 1 4.208-.743M18.385 4.597c3.043 0 6 1.11 8.298 3.233q-1.14.588-2.175 1.365a15.26 15.26 0 0 0-6.123-2.759zM15.32 15.314V9.19c6.758 0 12.256 5.495 12.256 12.249a3.066 3.066 0 0 1-3.145 3.06c-5.382-.132-9.111-4.406-9.111-9.185m16.086 17.609h2.298v.765a5.367 5.367 0 0 1-5.362 5.36h-2.298v-.766a5.367 5.367 0 0 1 5.362-5.36M56.044 26.841V30h-9.079v-3.159zm-7.617-13.875V30h-4.106V12.966zm6.447 6.762v3.053h-7.909v-3.053zm1.205-6.763v3.171h-9.114v-3.17zm5.533 0 2.785 5.663 2.784-5.662h4.68l-4.75 8.447L71.99 30h-4.727l-2.866-5.768L61.53 30h-4.738l4.89-8.587-4.761-8.447zM80.46 24.22h-4.235v-3.17h4.235q.867 0 1.404-.293a1.78 1.78 0 0 0 .784-.807q.258-.526.258-1.181 0-.702-.258-1.3a2.1 2.1 0 0 0-.784-.959q-.537-.374-1.404-.374h-2.69V30h-4.107V12.966h6.797q2.048 0 3.522.748 1.486.75 2.281 2.06.796 1.298.796 2.971 0 1.65-.796 2.878-.795 1.23-2.281 1.919-1.475.678-3.522.678m20.38 2.621V30h-8.61v-3.159zm-7.148-13.875V30h-4.107V12.966zm22.86 8.178v.69q0 1.953-.55 3.51-.538 1.544-1.532 2.644a6.8 6.8 0 0 1-2.352 1.673q-1.357.573-2.995.573-1.65 0-3.019-.573a6.9 6.9 0 0 1-2.363-1.673q-.995-1.1-1.544-2.644-.538-1.557-.538-3.51v-.69q0-1.954.538-3.51.55-1.557 1.532-2.645a6.6 6.6 0 0 1 2.352-1.673q1.37-.585 3.019-.585 1.638 0 2.995.585 1.368.574 2.363 1.673.995 1.088 1.544 2.645.55 1.556.55 3.51m-4.165.69v-.714q0-1.263-.222-2.223-.211-.971-.632-1.626a2.8 2.8 0 0 0-1.041-.983 2.8 2.8 0 0 0-1.392-.34q-.819 0-1.428.34a2.7 2.7 0 0 0-1.018.983q-.409.656-.62 1.626-.199.96-.199 2.223v.714q0 1.251.199 2.223.211.96.62 1.626.421.667 1.03 1.006.62.34 1.439.34.784 0 1.392-.34a2.8 2.8 0 0 0 1.018-1.006q.421-.667.632-1.626.222-.972.222-2.223m6.61-8.868h6.704q1.965 0 3.416.585t2.234 1.731q.796 1.146.796 2.831 0 1.462-.456 2.445a4.4 4.4 0 0 1-1.276 1.627 7.2 7.2 0 0 1-1.883 1.041l-1.346.76h-5.627l-.023-3.17h4.165q.783 0 1.298-.28.515-.281.772-.797.27-.526.269-1.251 0-.738-.269-1.264a1.85 1.85 0 0 0-.795-.807q-.514-.28-1.275-.28h-2.598V30h-4.106zM128.32 30l-3.767-7.535 4.352-.023 3.814 7.383V30zm18.344-3.159V30h-9.078v-3.159zm-7.616-13.875V30h-4.106V12.966zm6.447 6.762v3.053h-7.909v-3.053zm1.205-6.763v3.171h-9.114v-3.17zm-98.015 19V49H44.59V31.966zm17.431 0V49h-4.094l-6.026-10.6V49H51.89V31.966h4.106l6.026 10.6v-10.6zM74.563 49h-3.78l.024-3.159h3.756q1.17 0 1.977-.561.82-.562 1.24-1.674.433-1.123.433-2.76v-.738q0-1.228-.246-2.152-.234-.936-.702-1.556a2.93 2.93 0 0 0-1.17-.948q-.69-.316-1.59-.316h-3.791v-3.17h3.79q1.733 0 3.17.596 1.452.585 2.505 1.685a7.5 7.5 0 0 1 1.638 2.586q.585 1.485.585 3.299v.713q0 1.802-.585 3.3a7.55 7.55 0 0 1-1.627 2.585 7.3 7.3 0 0 1-2.492 1.685Q76.272 49 74.563 49m-1.428-17.034V49H69.03V31.966zm26.137 8.178v.69q0 1.953-.55 3.51-.54 1.544-1.533 2.644a6.8 6.8 0 0 1-2.351 1.673q-1.358.573-2.996.573-1.65 0-3.018-.573a6.9 6.9 0 0 1-2.363-1.673q-.994-1.1-1.545-2.644-.538-1.557-.538-3.51v-.69q0-1.954.538-3.51.55-1.557 1.533-2.645a6.6 6.6 0 0 1 2.352-1.672q1.368-.585 3.018-.585 1.638 0 2.995.584 1.369.574 2.363 1.673.994 1.089 1.545 2.645t.55 3.51m-4.165.69v-.714q0-1.263-.223-2.223-.21-.971-.632-1.626a2.8 2.8 0 0 0-1.04-.983 2.8 2.8 0 0 0-1.393-.34q-.82 0-1.427.34a2.7 2.7 0 0 0-1.018.983q-.41.656-.62 1.626-.2.96-.2 2.223v.714q0 1.251.2 2.223.21.96.62 1.626.42.667 1.03 1.006.62.34 1.438.34a2.8 2.8 0 0 0 1.393-.34 2.8 2.8 0 0 0 1.017-1.006q.422-.667.632-1.626.222-.972.223-2.223m20.836-8.869V49h-4.095l-6.025-10.6V49h-4.107V31.966h4.107l6.025 10.6v-10.6zm14.635 13.876V49h-9.079v-3.159zm-7.616-13.876V49h-4.107V31.966zm6.446 6.763v3.053h-7.909v-3.053zm1.205-6.763v3.171h-9.114v-3.17zm10.74 12.507q0-.398-.117-.713a1.5 1.5 0 0 0-.433-.609q-.316-.28-.913-.561-.584-.293-1.544-.609-1.123-.374-2.164-.842a9.6 9.6 0 0 1-1.861-1.111 5 5 0 0 1-1.298-1.498q-.48-.866-.48-2.012 0-1.1.492-1.978a4.5 4.5 0 0 1 1.368-1.509q.89-.63 2.083-.96a9.5 9.5 0 0 1 2.609-.338q1.872 0 3.299.655 1.439.643 2.246 1.837.819 1.181.819 2.796h-4.083q0-.645-.269-1.135a1.83 1.83 0 0 0-.784-.772q-.526-.28-1.322-.281-.772 0-1.298.234-.527.233-.796.632a1.46 1.46 0 0 0-.269.854q0 .386.211.702.222.304.62.573.41.27.982.515.585.245 1.311.48 1.357.432 2.41.97 1.065.527 1.79 1.206.737.666 1.111 1.52.387.855.386 1.93 0 1.148-.444 2.037a4.24 4.24 0 0 1-1.275 1.509q-.831.608-1.989.924-1.159.315-2.586.316-1.31 0-2.586-.328a7.7 7.7 0 0 1-2.293-1.03 5.3 5.3 0 0 1-1.649-1.79q-.609-1.099-.609-2.608h4.119q0 .749.198 1.263.2.515.585.831.387.304.948.445.562.128 1.287.128.784 0 1.264-.222.478-.234.702-.608a1.66 1.66 0 0 0 .222-.843m10.903-12.507V49h-4.095V31.966zm10.634 3.58L158.737 49h-4.411l6.26-17.034h2.796zM166.33 49l-4.165-13.454-.538-3.58h2.831L170.753 49zm-.164-6.353v3.17h-8.739v-3.17z"/><path fill="url(#a)" d="M19.01 36h166.086v20H19.01z" opacity=".7"/><defs><linearGradient id="a" x1="77.14" x2="77.14" y1="37.481" y2="52.667" gradientUnits="userSpaceOnUse"><stop stop-color="#018495" stop-opacity="0"/><stop offset="1" stop-color="#018394"/></linearGradient></defs></svg>
+
+            <nav class="links-header">
+                <ul>
+                    <li><a href="#">DESTINATIONS</a></li>
+                    <li><a href="#">EXPERIENCES</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                </ul>
+            </nav>
+
+            <div class="logos-header">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-list"></i>  
+            </div>
+
+        </header>
+
+
+        <section class="hero">
+            <div class="h1-btn">
+                <h1>EXPLORE<br>INDONESIA</h1>
+                <button>Start travelling</button>
+            </div> 
+            
+            <div class="lorem-video">
+                <div class="lorem-section">
+                <div class="loremm">
+                    <p class="numb-lorem">01</p>
+                    <p class="title-lorem">Title here</p>
+                    <p class="lorem-text">Lorem ipsum dolor sit<br>amet et amet ist ame.</p>
+                </div>
+
+                <div class="loremm">
+                    <p class="numb-lorem">02</p>
+                    <p class="title-lorem">Title here</p>
+                    <p class="lorem-text">Lorem ipsum dolor sit<br>amet et amet ist ame.</p>
+                </div>
+
+                <div class="loremm">
+                    <p class="numb-lorem">03</p>
+                    <p class="title-lorem">Title here</p>
+                    <p class="lorem-text">Lorem ipsum dolor sit<br>amet et amet ist ame.</p>
+                </div>
+            </div>
+            
+            <iframe src="https://www.youtube.com/embed/rAx1qYtXI28?si=rURvKWpX0KyjsF5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
+    
+
+
+    <section class="learning">
+        <div class="walkway-section">
+                <img src="./images/walkway.webp" alt="">
+            <div>
+                <h2>The walkways of Indonesia spellbind</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. </p>
+                <button>Learn More</button>
+            </div>
+        </div>
+
+        <div class="beach-section">
+                <img src="./images/beach.webp" alt="">
+
+            <div>
+                <h2>Perfect beaches exude relaxation and fun</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. </p>
+                <button>Learn More</button>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="exploring">
+        <h2>Explore Our Secrets</h2>
+        <div class="pictures-list">
+            <i class="bi bi-caret-left"></i>
+            <img class="phone-img" src="./images/beach.webp" alt="beach">
+            <img class="lt-img" src="./images/sea.webp" alt="">
+            <img class="lt-img" src="./images/children.webp" alt="">
+            <img class="lt-img" src="./images/mountains.webp" alt="">
+            <i class="bi bi-caret-right"></i>
+        </div>
+        <div class="circles">
+            <svg width="16" height="16" fill="none">
+                <circle cx="8" cy="8" r="8" fill="#85A3B2"/>
+            </svg>
+
+            <svg width="16" height="16" fill="none">
+                <circle cx="8" cy="8" r="8" fill="#85A3B2"/>
+            </svg>
+
+            <svg width="16" height="16" fill="none">
+                <circle cx="8" cy="8" r="8" fill="#85A3B2"/>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="17" fill="none"><rect width="43.367" height="16.48" fill="#dd2242" rx="8.24"/></svg>
+
+            <svg width="16" height="16" fill="none">
+                <circle cx="8" cy="8" r="8" fill="#85A3B2"/>
+            </svg>
+        </div>
+
+
+        <section class="numbers-section">
+            <h2>By The Numbers</h2>
+            <p class="lorem-nearh2-nmbr">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Fusce commodo magna et libero.Lorem ipsum <br> dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="numbs">
+                <div>
+                    <p class="number-nmbrs">100+</p>
+                    <p class="descrpt-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                </div>
+
+                <div>
+                    <p class="number-nmbrs">43,000+</p>
+                    <p class="descrpt-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
+                </div>
+
+                <div>
+                    <p class="number-nmbrs">30+</p>
+                    <p class="descrpt-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                </div>
+            </div>
+
+        </section>
+   
+    </section>    
+
+    <section class="learn-more-abt">
+        <h2>Our hills and valleys are like <br> nothing you’ve seen.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Fusce sit amet magna commodo, tempus dolor <br> sit amet, laoreet elit. Donec mauris tortor, elementum sed.</p>
+        <button>Learn More</button>
+    </section>
+
+
+    <section class="video-section">
+        <h2>Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.</h2>
+        <iframe class="main-iframe" width="314" height="192" src="https://www.youtube.com/embed/5v6u_U6QRQA?si=Ydgm--HfSgctQQGO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="videos">
+            <div class="videoo">
+                <iframe width="314" height="192" src="https://www.youtube.com/embed/fJ4jfvS5v4o?si=UH6mTbJxUNh6gSk5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="text-video">
+                    <p class="in-country">In The Country</p>
+                    <p class="lorem-country">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus.</p> 
+                </div>
+                
+            </div>
+            <div class="videoo">
+                <iframe width="314" height="192" src="https://www.youtube.com/embed/rkdJHwwG5js?si=mxIPowbaGpYtPLkH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="text-video">
+                    <p class="in-country">In The Country</p>
+                    <p class="lorem-country">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus.</p> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer> 
+        <img class="logo-footer" src="./images/exploree-indonesia.webp" alt="logo">
+        <div>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="sm-footer">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-google"></i>
+        </div>
+        <p>Copyright © 2019</p>
+    </footer>
+</body>
+</html>
