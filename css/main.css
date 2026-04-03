@@ -571,6 +571,56 @@ header .logos-header .bi-list {
     margin: 0;
   }
 }
+.gallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.gallery .title-gallery {
+  text-align: center;
+  margin-top: 32px;
+}
+.gallery .title-gallery h2 {
+  font-size: 40px;
+}
+.gallery .title-gallery p {
+  font-size: 16px;
+  color: #6F7787;
+}
+.gallery .photo-gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.gallery .photo-gallery .column {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.gallery .photo-gallery .column-hide {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .gallery .title-gallery {
+    margin-top: 140px;
+  }
+  .gallery .title-gallery h2 {
+    font-size: 60px;
+  }
+  .gallery .title-gallery p {
+    font-size: 18px;
+  }
+  .gallery .photo-gallery {
+    margin-bottom: 150px;
+  }
+  .gallery .photo-gallery .column-hide {
+    display: flex;
+  }
+}
 footer {
   display: flex;
   flex-direction: column;
