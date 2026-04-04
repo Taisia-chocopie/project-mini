@@ -621,6 +621,76 @@ header .logos-header .bi-list {
     display: flex;
   }
 }
+.getting-there {
+  background-color: #DCE8F2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.getting-there h2 {
+  font-size: 40px;
+  color: #010A20;
+  margin-top: 29px;
+}
+.getting-there .puncts-number {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.getting-there .puncts-number p {
+  color: white;
+  background-color: #DD2242;
+  border-radius: 100px;
+  width: 56px;
+  height: 56px;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 9px;
+}
+.getting-there .puncts-text .title-puncts {
+  color: #010A20;
+  font-size: 22px;
+}
+.getting-there .puncts-text .puncts-p {
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 16px;
+  display: none;
+}
+.getting-there .puncts-text .lorem-text-hide {
+  font-size: 16px;
+  color: rgba(21, 20, 57, 0.4);
+}
+.getting-there .puncts-text .sm-hide {
+  font-size: 16px;
+  color: #DD2242;
+  text-decoration: none;
+}
+.getting-there .puncts-text .btn-puncts {
+  color: white;
+  background-color: #DD2242;
+  font-size: 18px;
+  border: none;
+  border-radius: 122px;
+  height: 64px;
+  width: 210px;
+  display: none;
+}
+.getting-there .video-puncts iframe {
+  width: 300px;
+  height: 200px;
+  margin-top: 32px;
+}
+
+@media (min-width: 1024px) {
+  .getting-there .puncts-text .puncts-p {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .getting-there .hide {
+    display: none;
+  }
+}
 footer {
   display: flex;
   flex-direction: column;

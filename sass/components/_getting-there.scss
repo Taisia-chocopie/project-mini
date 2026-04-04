@@ -1,0 +1,88 @@
+.getting-there {
+    background-color: #DCE8F2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    & h2 {
+        font-size: 40px;
+        color: #010A20;
+        margin-top: 29px;
+    }
+
+    & .puncts-number {
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
+
+    & .puncts-number p {
+        color: white;
+        background-color: #DD2242;
+        border-radius: 100px;
+        width: 56px;
+        height: 56px;
+        font-size: 26px;
+        text-align: center;
+        padding-top: 9px;
+    }
+
+    & .puncts-text {
+        & .title-puncts {
+            color: #010A20;
+            font-size: 22px;
+        }
+
+        & .puncts-p {
+            color: #15143966;
+            font-size: 16px;
+            display: none;
+        }
+
+        & .lorem-text-hide {
+            font-size: 16px;
+            color: #15143966;
+        }
+
+        & .sm-hide {
+            font-size: 16px;
+            color: #DD2242;
+            text-decoration: none;
+        }
+
+        & .btn-puncts {
+            color: white;
+            background-color: #DD2242;
+            font-size: 18px;
+            border: none;
+            border-radius: 122px;
+            height: 64px;
+            width: 210px;
+            display: none;
+        }
+    }
+
+    & .video-puncts {
+        & iframe {
+            width: 300px;
+            height: 200px;
+            margin-top: 32px;
+        }
+    }
+}
+
+@media (min-width:1024px) {
+    .getting-there { 
+        & .puncts-text {
+            & .puncts-p {
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+            }
+        }
+
+        & .hide {
+            display: none;
+        }
+    }
+}
